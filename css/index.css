@@ -1,0 +1,190 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Roboto:wght@100;400;700&display=swap');
+
+* {
+    margin :0;
+    padding : 0;
+    font-family: "poppins";
+}
+
+.body{
+    background-color: rgb(44, 44, 44);
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav img {
+    width : 200px;
+    object-fit: contain;
+}
+
+nav div {
+    display: flex;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+}
+
+nav div a {
+   text-decoration: none;
+   color : orange;
+   font-family: "poppins";
+
+}
+
+nav div a:hover {
+    color: rgb(255, 187, 61);
+}
+.home{
+    display: flex;
+    width: 100vw;
+}
+
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 100px;
+    width: 50vw;
+    padding-left: 100px;
+    background-color:rgb(50, 50, 50) ;
+}
+
+.left h1{
+    color: orange;
+    font-family: "poppins";
+}
+
+.left p{
+    font-family: "poppins";
+    color: white;
+    width: 400px;
+    font-weight: 300;
+}
+
+
+.home {
+    background-color:rgb(50, 50, 50) ;
+}
+
+.naruto {
+    padding-top:200px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(50, 50, 50) ;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+
+.first div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:30px;
+}
+
+.first div h1 {
+    font-family: "poppins";
+    color: orange;
+    
+}
+
+.first div p {
+    font-family: "poppins";
+    font-size: small;
+    color: white;
+}
+
+.second {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap:50px;
+}
+
+.first img {
+    width:400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.second img {
+    width:400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.second div p {
+    color : white;
+    font-family: "poppins";
+    font-size: medium;
+    margin-top: 30px;
+}
+
+.jujutsu {
+    padding-top:200px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(50, 50, 50) ;
+    padding-bottom: 100px;
+}
+
+.contact {
+    border-top: solid 1px orange;
+    background-color: rgb(50, 50, 50) ;
+    padding: 100px;
+    display: flex;
+    justify-content:space-between;
+    align-items: start;
+    gap: 50px;
+}
+
+
+.contact div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: start;
+    align-items: start;
+}
+
+.contact div img {
+    width:150px;
+    object-fit: contain;
+}
+
+.contact div a {
+   text-decoration: none;
+   color : orangered;
+}
+
+.contact div p {
+    color : orangered;
+}
+
+.contact .icons {
+    display: flex;
+    flex-direction: row;
+    gap : 30px;
+}
